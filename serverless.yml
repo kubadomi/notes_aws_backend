@@ -99,5 +99,5 @@ functions:
           authorizer: aws_iam
 
 resources:
-  # API Gateway Errors
+  # API Gateway Errors (if occuring)
   - ${file(resources/api-gateway-errors.yml)}

@@ -11,6 +11,7 @@ export async function main(event, context) {
       noteId: uuid.v1(),
       content: data.content,
       attachment: data.attachment,
+      tags: data.tags,
       createdAt: Date.now()
     }
   };

@@ -1,0 +1,8 @@
+{
+  "body": "{\"content\":\"wazne ogloszenie\"}",
+  "requestContext": {
+    "identity": {
+      "cognitoIdentityId": "MACIEJSYSKA1"
+    }
+  }
+}

@@ -5,14 +5,14 @@ export async function main(event, context) {
     const data = JSON.parse(event.body);
     const params = {
         TableName: process.env.tableName,
-        KeyConditionExpression: "content = :content",
+        KeyConditionExpression: "tags = :tags",
         ExpressionAttributeValues: {
-            ":content": data.content
+            ":tags": data.tags
         },
     };
 
     try {
-        const result = await dynamoDbLib.call("query", params);
+        const result = await dynamoDbLib.call("scan", params);
         // Return the matching list of items in response body
         return success(result.Items);
     } catch (e) {

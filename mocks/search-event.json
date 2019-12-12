@@ -1,8 +1,5 @@
 {
-  "body": "{\"content\":\"wazne ogloszenie\"}",
-  "requestContext": {
-    "identity": {
-      "cognitoIdentityId": "MACIEJSYSKA1"
-    }
+  "FilterExpression": {
+    "body": "{\"tags\":\"gang\"}"
   }
 }

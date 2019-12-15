@@ -1,8 +1,5 @@
 {
-  "body": "{\"tags\":\"tag1, tag2, tag3\"}",
-  "requestContext": {
-    "identity": {
-      "cognitoIdentityId": "MACIEJSYSKA1"
-    }
+  "FilterExpression": {
+    "body": "{\"tags\":\"gang\"}"
   }
 }

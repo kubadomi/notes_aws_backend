@@ -15,10 +15,12 @@ export async function main(event, context) {
       ":userId": event.requestContext.identity.cognitoIdentityId
     }
   };
+  console.log(params);
 
   try {
     const result = await dynamoDbLib.call("query", params);
     // Return the matching list of items in response body
+    console.log(result);
     return success(result.Items);
   } catch (e) {
     return failure({ status: false });

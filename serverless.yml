@@ -86,6 +86,14 @@ functions:
           method: get
           cors: true
           authorizer: aws_iam
+  serch:
+    handler: serch.main
+    events:
+      - http:
+          path: notes
+          method: get
+          cors: true
+          authorizer: aws_iam
   delete:
     # Defines an HTTP API endpoint that calls the main function in delete.js
     # - path: url path is /notes/{id}

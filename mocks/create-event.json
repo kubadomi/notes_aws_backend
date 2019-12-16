@@ -1,8 +1,8 @@
 {
-  "body": "{\"title:\":\"UWAGA\",\"content\":\"wazne ogloszenie\",\"attachment\":\"XD.jpg\",\"tags\":\"gang, gang2, gang3\"}",
+  "body": "{\"title:\":\"UWAGA\",\"content\":\"wazne ogloszenie\",\"attachment\":\"XD.jpg\",\"tags\":\"tag1, tag2, tag3\"}",
   "requestContext": {
     "identity": {
-      "cognitoIdentityId": "MACIEJSYSKA1"
+      "cognitoIdentityId": "KUBA_MISTRZ_AWSA"
     }
   }
 }

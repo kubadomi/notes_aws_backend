@@ -1,4 +1,4 @@
-import * as update from '../update';
+import * as updated from '../update';
 
 test('Is updated', async () => {
   const event = 'event';
@@ -7,4 +7,5 @@ test('Is updated', async () => {
     expect(response.statusCode).toEqual(200);
     expect(typeof response.body).toBe("string");
   };
+  //await updated.main(event, context, callback);
 });

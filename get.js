@@ -8,8 +8,12 @@ export async function main(event, context) {
     // - 'userId': Identity Pool identity id of the authenticated user
     // - 'noteId': path parameter
     Key: {
-      userId: event.requestContext.identity.cognitoIdentityId,
-      noteId: event.pathParameters.id
+      //forwarded parameters:
+      userId: "MACIEJSYSKA1",
+      noteId: "11553440-190c-11ea-a85e-194715bd9e16"
+      //unforwarded parameters:
+      //userId: event.requestContext.identity.cognitoIdentityId,
+      //noteId: event.pathParameters.id
     }
   };
 

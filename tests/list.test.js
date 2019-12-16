@@ -7,4 +7,5 @@ test('Is listed', async () => {
     expect(response.statusCode).toEqual(200);
     expect(typeof response.body).toBe("string");
   };
+  //await listed.main(event, context, callback);
 });

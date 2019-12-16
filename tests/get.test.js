@@ -7,4 +7,5 @@ test('Is got', async () => {
     expect(response.statusCode).toEqual(200);
     expect(typeof response.body).toBe("string");
   };
+  await got.main(event, context, callback);
 });

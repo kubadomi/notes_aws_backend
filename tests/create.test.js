@@ -5,8 +5,7 @@ test('If created', async () => {
   const context = 'context';
   const callback = (error, response) => {
     expect(response.statusCode).toEqual(200);
-    expect(typeof response.body).toBe("string");
+    expect(typeof response.body).toBe("json");
   };
-
-  //await create.main(event, context, callback);
+  //await created.main(event, context, callback);
 });

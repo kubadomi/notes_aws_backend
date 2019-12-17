@@ -1,5 +1,5 @@
 {
-  "body": "{\"title:\":\"UWAGA\",\"content\":\"wazne ogloszenie\",\"attachment\":\"XD.jpg\",\"tags\":\"tag1, tag2, tag3\"}",
+  "body": "{\"content\":\"Nowe ogłoszenie praktyk miedzynarodowych\",\"attachment\":\"XD.jpg\",\"tags\":\"tagg1, tagg2, tagg3\",\"title\":\"XD.jpg\"}",
   "requestContext": {
     "identity": {
       "cognitoIdentityId": "KUBA_MISTRZ_AWSA"

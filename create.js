@@ -7,15 +7,16 @@ export async function main(event, context) {
   const params = {
     TableName: process.env.tableName,
     Item: {
-      title: data.title,
       userId: event.requestContext.identity.cognitoIdentityId,
       noteId: uuid.v1(),
       content: data.content,
       attachment: data.attachment,
       tags: data.tags,
-      createdAt: Date.now()
+      createdAt: Date.now(),
+      title: data.title
     }
   };
+  //console.log(params);
 
   try {
     await dynamoDbLib.call("put", params);
